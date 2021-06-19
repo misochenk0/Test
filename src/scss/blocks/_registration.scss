@@ -1,0 +1,27 @@
+.registration {
+    min-height: 537px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 290px 0 290px 0;
+    background-color: #75BAFE;
+    position: relative;
+    &__bg {
+        height: 100%;
+        width: 100%;
+        padding: 80px 0;
+        top: -15px;
+        left: -15px;
+        position: absolute;
+        border-radius: 290px 0 290px 0;
+        background: linear-gradient(116.62deg, #002476 12.82%, #063D8D 32.98%, #05579C 59.1%, #00A6E6 99.97%);
+    }
+    .form {
+        display: grid;
+        grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+        gap: 30px;
+        width: 95%;
+        margin: 0 auto;
+        @include input;
+    }
+        
+}

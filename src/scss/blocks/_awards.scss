@@ -1,0 +1,42 @@
+.awards {
+    padding: 150px 0 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 8px;
+    }
+    &-item {
+        width: 23%;
+        max-height: 374px;
+        border-radius: 50px;
+        border: 1px solid $text-color;
+        text-align: center;
+        padding: 58px 16px;
+        background-color: #fff;
+        position: relative;
+        &__img {
+            margin-bottom: 30px;
+        }
+        &__title {
+            color: $dark-color;
+            font-weight: 700;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+        &__descr {
+            color: $dark-color;
+            font-size: 17px;
+            line-height: 20px;
+        }
+        &__shadow {
+            z-index: -1;
+            position: absolute;
+            width: 105%;
+            height: 100%;
+            background-color: $text-color;
+            top: 0;
+            border-radius: 50px;
+            left: 0;
+        }
+    }
+}

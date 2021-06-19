@@ -1,0 +1,16 @@
+.title {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 53px;
+    margin-bottom: 60px;
+    &_blue {
+        color: $text-color;
+    }
+    &_fs50 {
+        font-size: 50px;
+    }
+    &_mb30 {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,103 @@
+.nav {
+    position: fixed;
+    right: 50%;
+    top: 0;
+    transform: translateX(50%);
+    width: 100%;
+    transition: .8s all;
+    height: 0;
+    z-index: 10;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+}
+.scroll {
+    // appears when scroll 100px
+    transition: .8s all;
+    opacity: 1;
+    height: 100px;
+    background: linear-gradient(115.99deg, #002476 12.93%, #063D8D 33.28%, #05579C 59.65%, #00A6E6 100.88%);
+    border-radius: 0 0 30px 30px;
+}
+.header__wrapper {
+    margin-top: 11px;
+}
+
+.logo {
+    &:hover {
+        img {
+            transition: .4s;
+            filter: contrast(50%);
+        }
+    }
+}
+.language {
+    // language menu
+    position: absolute;
+    list-style-type: none;
+    right: 0px;
+    top: 0px;
+    width: 160px;
+    height: 94px;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s all;
+    &_active {
+
+        top: 60px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    li {
+        font-size: 20px;
+        line-height: 40px;
+        width: 100%;
+        padding: 5px 20px;
+        position: relative;
+        border: 1px solid #fff;
+        transition: .4s;
+        background-color:$main-color;
+        &:hover {
+            background-color: #fff;
+            border: 1px solid $main-color;
+            a {
+                color: $main-color;
+            }
+        }
+        &:first-child {
+            border-radius: 20px 20px 0 0;
+            border-bottom: none;
+        }
+        &:last-child {
+            border-radius:  0 0 20px 20px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:after {
+                content: '';
+                position: absolute;
+                height: 25px;
+                width: 25px;
+                right: 15px;
+                top: 45%;
+                transform: translateY(-50%);
+            }
+        }
+
+        .english {
+            &::after {
+                content: url('../icons/header/english.svg');
+            }
+        }
+        .russian {
+            &::after {
+                content: url('../icons/header/russia.svg');
+            }
+        }
+    }
+}

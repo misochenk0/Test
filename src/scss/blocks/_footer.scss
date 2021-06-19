@@ -1,0 +1,54 @@
+.footer {
+    padding: 80px 0;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(115.99deg, #002476 12.93%, #063D8D 33.28%, #05579C 59.65%, #00A6E6 100.88%);
+    .logo {
+        img {
+            width: 154px;
+        }
+    }
+    &__bg {
+        position: absolute;
+        width: 98%;
+        z-index: -1;
+        right: 50%;
+        transform: translateX(50%);
+        background-color: #31AFC6;
+        height: 100%;
+        top: -15px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__grid {
+        width: 892px;
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    &__list {
+        ul {
+            list-style-type: none;
+        }
+    }
+    &__title {
+        font-size: 17px;
+        color: $extra-color;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 20px;
+        a {
+            color: #ffffff;
+            transition: .4s;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}

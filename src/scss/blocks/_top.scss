@@ -1,0 +1,28 @@
+.top {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: rgba(0, 36, 118, 0.5);
+    position: fixed;
+    bottom: 113px;
+    opacity: 0;
+    visibility: hidden;
+    right: -5%;
+    transition: .7s all;
+    svg {
+        position: absolute;
+        right: 50%;
+        top: 47%;
+        transform: translateX(50%) translateY(-50%);
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: $main-color;
+        transition: .4s all;
+    }
+    &_active {
+        right: 7%;
+        opacity: 1;
+        visibility: visible;
+    }
+}

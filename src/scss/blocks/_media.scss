@@ -1,0 +1,566 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .btn {
+        height: 40px;
+        font-size: 18px;
+        line-height: 39px;   
+    }
+    .title {
+        font-size: 35px;
+        margin-bottom: 40px;
+        line-height: 40px;
+        &_fs50 {
+            font-size: 40px;
+        }
+    }
+    // Nav <1200
+    .scroll {
+        height: 70px;
+    }
+    .logo {
+        img {
+            height: 45px;
+        }
+    }
+    .language {
+        width: 120px;
+        li {
+            line-height: 33px;
+            padding: 5px 10px;
+            font-size: 18px;
+            a {
+                &:after {
+                    width: 18px;
+                }
+            }
+        }
+    }
+    // Header <1200
+    .header {
+        padding: 150px 0;
+        min-height: 620px;
+        position: relative;
+        &__img {
+            width: 63%;
+            right: -150px;
+        }
+        &__buttons {
+            width: 340px;
+        }
+        &__wrapper {
+            margin-top: 0;
+        }
+    }
+    
+    .background {
+        height: 100%;
+    }
+    .circles {
+        width: 45%;
+        right: 0;
+    }
+    .content {
+        &__title {
+            font-size: 40px;
+            line-height: 47px;
+        }
+        &__subtitle {
+            margin-top: 30px;
+            font-size: 28px;
+        }
+    }
+    // Advantages <1200
+    .advantages {
+        &-item {
+            width: 130px;
+            img {
+                height: 30%;
+            };
+            &__text {
+                font-size: 16px;
+            }
+        }
+    }
+    //Registration <1200
+    .registration {
+        border-radius: 220px 0 220px 0;
+        min-height: 400px;
+        &__bg {
+            padding: 50px 0;
+            border-radius: 220px 0 220px 0;
+        }
+        .form {
+            gap: 25px;
+            padding: 0 30px;
+            input {
+                padding: 12px;
+                font-size: 18px;
+            }
+        }
+    }
+    //About <1200
+    .about {
+        &__people {
+            top: 150px;
+            width: 450px;
+        }
+        &__text {
+            font-size: 18px;
+            width: 550px;
+        }
+    }
+    //Awards <1200
+    .awards {
+        padding: 50px 0 100px;
+        &-item {
+            padding: 30px 15px;
+        }
+    }
+    //Choice <1200
+    .choice {
+        &__question {
+            font-size: 18px;
+        }
+    }
+    //Footer <1200
+    .footer {
+        padding: 50px 0;
+        &__grid {
+            width: auto;
+        }
+        &__link {
+            font-size: 18px;
+        }
+    }
+    .top {
+        right: 5%;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 35px;
+    }
+    //Nav <992
+    .scroll {
+        height: 65px;
+    }
+    .language {
+        width: 115px;
+        li {
+            font-size: 16px;
+            a {
+                &::after {
+                    top: 48%;
+                }
+            }
+        }
+    }
+    //Header <992
+    .header {
+        min-height: 500px;
+    }
+    .content {
+        &__title {
+            font-size: 35px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__buttons {
+            width: 440px;
+            svg {
+                width: 20px;
+            }
+        }
+    }
+    // Advantages <992
+    .advantages {
+        padding: 50px 0;
+        &__wrapper {
+            padding: 0 30px;
+        }
+        &-item {
+            &__text {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    // Registration <992
+    .registration {
+        min-height: 350px;
+        .form {
+            gap: 20px;
+            input {
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+    }
+    // About <992
+    .about {
+        overflow: hidden;
+        padding: 50px 0;
+        &__text {
+            font-size: 16px;
+            line-height: 20px;
+            width: 450px;
+        }
+        &__people {
+            right: -150px;
+        }
+    }
+    //Awards <992
+    .awards {
+        padding-bottom: 70px;
+        &-item {
+            &__img {
+                width: 60px;
+                margin-bottom: 15px;
+            }
+            &__title {
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+            &__descr {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+    //Choice <992
+    .choice {
+        padding-bottom: 50px;
+        &__question {
+            font-size: 15px;
+        }
+    }
+    //Footer <992
+    .footer {
+        padding: 40px 0;
+        &__title {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+        .logo {
+            img {
+                width: 120px;
+            }
+        }
+    }
+    .top {
+        width: 40px;
+        height: 40px;
+        svg {
+            width: 18px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .btn {
+        font-size: 14px;
+        line-height: 34px;
+        height: 35px;
+        padding: 0 20px;
+        min-width: 80px;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 30px;
+        &_mb30 {
+            margin-bottom: 20px;
+        }
+    }
+    //Nav <768
+    .nav {
+        .logo {
+            img {
+                height: 35px;
+            }
+        }
+    }
+    .language {
+        top: 45px;
+        width: 105px;
+        li {
+            font-size: 14px;
+        }
+    }
+    //Header <768
+    .header {
+        min-height: 350px;
+        padding: 110px 0;
+        &__buttons {
+            width: 270px;
+        }
+    }
+    .content {
+        &__title {
+            font-size: 26px;
+            line-height: 35px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        &__buttons {
+            margin-top: 20px;
+            width: 380px;
+        }
+    }
+    // Advantages <768
+    .advantages {
+        padding: 30px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &-item {
+            margin: 0 10px 20px 0;
+            img {
+                height: 80px;
+            }
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            &__text {
+                margin-top: 10px;
+            }
+        }
+    }
+    // Registration <768
+    .registration {
+        min-height:  290px;
+        border-radius: 120px 0 120px 0;
+        &__bg {
+            border-radius: 120px 0 120px 0;
+            padding: 30px 0;
+        }
+        .form {
+            input {
+                font-size: 14px;
+                line-height: 14px;
+            }
+        }
+    }
+    // About <768
+    .about {
+        &__people {
+            right: -280px;
+        }
+        &__text {
+            &:last-of-type {
+                width: 390px;
+            }
+        }
+    }
+    // Awards <768
+    .awards {
+        padding: 40px 0;
+        &-item {
+            width: 40%;
+            margin: 0 20px 20px 0;
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+            img {
+                width: 90px;
+            }
+        }
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    //Choice <768
+    .choice {
+        &__question {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    }
+    //Footer <768
+    .footer {
+        &__grid {
+            gap: 20px;
+        }
+        &__title {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+        &__link {
+            font-size: 12px;
+        }
+        &__list {
+            width: 110px;
+            display: grid;
+            row-gap: 20px;
+            grid-template: 30px 70px / 1fr;
+        }
+    }
+    .top {
+        bottom: 30px;
+        right: 3%;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .btn {
+        min-width: 70px;
+    }
+    .title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    //Nav <576
+    .nav {
+        .btn_green{
+            span {
+                display: none;
+            }
+            position: relative;
+            &:after {
+                content: url('../icons/enter.svg');
+                position: absolute;
+                top: 69%;
+                right: 50%;
+                transform: translateX(50%) translateY(-50%);
+            }
+        }
+        .btn_transparent {
+            span {
+                right: 15px;
+            }
+        }
+    }
+    // Header <576
+    .header {
+        padding: 80px 0 40px;
+        &__buttons {
+            width: 150px;
+        }
+        &__img {
+            display: none;
+        }
+        .circles {
+            width: 80%;
+            right: -100px;
+            top: -200px;
+        }
+    }
+    .content {
+        &__title {
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+        }
+        &__subtitle {
+            font-size: 14px;
+            text-align: center;
+        }
+        &__buttons {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            a:first-child {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+    // Advantages <576
+    .advantages {
+        &-item {
+            margin-right: 0;
+        }
+    }
+    //Registration <576
+    .registration {
+        min-height: 350px;
+        border-radius: 60px 0 60px 0;
+        &__bg{
+            border-radius: 60px 0 60px 0;
+        }
+        .form {
+            display: block;
+            input {
+                width: 100%;
+                margin-bottom: 15px;
+                font-size: 12px;
+            }
+        }
+    }
+    // About <576
+    .about {
+        &__text {
+            font-size: 13px;
+            width: 100%;
+            &:last-of-type {
+                width: 100%;
+            }
+        }
+        &__people {
+            display: none;
+        }
+    }
+    // Awards <576
+    .awards {
+        &__wrapper {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        &-item {
+            width: 220px;
+            &:nth-child(1n) {
+                margin: 10px auto 0;
+            }
+        }
+    }
+    //Footer <576
+    .footer {
+        padding: 20px 0;
+        &__wrapper {
+            display: block;
+        }
+        &__grid {
+            margin-top: 15px;
+            gap: 10px;
+        }
+        &__list {
+            width: 90px;
+            margin-bottom: 0;
+            row-gap: 10px;
+        }
+        &__title {
+            font-size: 10px;
+        }
+        &__link {
+            font-size: 10px;
+        }
+    }
+}

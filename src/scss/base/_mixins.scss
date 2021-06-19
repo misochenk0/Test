@@ -1,0 +1,29 @@
+@mixin input {
+    // Mixin for inputs 
+    input, textarea {
+        resize: none;
+        background: transparent;
+        border: 1px solid $main-color;
+        border-radius: 30px;
+        color: #ffffff;
+        padding: 20px;
+        font-size: 22px;
+        line-height: 22px;
+        &:last-child {
+            transition: .4s;
+            background-color: $main-color;
+            &:hover {
+                background-color: transparent;
+                border: 1px solid $main-color;
+            }
+        }
+        &::placeholder {
+            color: #fff;
+            opacity: 1;
+        }
+        &:focus {
+            background-color: #ffffff;
+            color: $main-color
+        }
+    }
+}

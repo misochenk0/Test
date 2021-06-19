@@ -1,0 +1,26 @@
+.about {
+    padding: 100px 0;
+    .container {
+        position: relative;
+    }
+    &__text {
+        width: 687px;
+        color: $dark-color;
+        font-size: 20px;
+        strong {
+            color: $dark-color;
+        }
+    }
+    &__dots {
+        position: absolute;
+        left: -350px;
+        top: 120px;
+        z-index: -1;
+    }
+    &__people {
+        z-index: -1;
+        position: absolute;
+        top: 200px;
+        right: 0;
+    }
+}
