@@ -53,8 +53,9 @@
             margin-top: 0;
         }
     }
+    
     .background {
-        height: 550px;
+        height: 100%;
     }
     .circles {
         width: 45%;
@@ -183,7 +184,6 @@
             }
         }
     }
-
     // Advantages <992
     .advantages {
         padding: 50px 0;
@@ -305,7 +305,7 @@
     }
     //Header <768
     .header {
-        min-height: 390px;
+        min-height: 350px;
         padding: 110px 0;
         &__buttons {
             width: 270px;
@@ -324,9 +324,6 @@
             margin-top: 20px;
             width: 380px;
         }
-    }
-    .background {
-        height: 390px;
     }
     // Advantages <768
     .advantages {
@@ -493,6 +490,7 @@
                 margin-bottom: 20px;
             }
         }
+
     }
     // Advantages <576
     .advantages {
