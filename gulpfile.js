@@ -53,7 +53,7 @@ gulp.task('images', function () {
 
 gulp.task('favicon', function () {
   return gulp.src("src/favicon/*")
-      .pipe(gulp.dest("dist/"))
+      .pipe(gulp.dest("dist/favicon/"))
       .on("end", browserSync.reload);
 });
 

@@ -67,8 +67,8 @@ const popup = () => {
 // Close popup
 function closeModal(form) {
     const   modal = document.querySelector('.popup'),
-            overflow = document.querySelector('.overflow');
-
+            overflow = document.querySelector('.overflow'),
+            thanksPopup = document.querySelector('.popup-thanks');
 
     if (form && form.classList.contains('popup-contact__form')) {
         form.parentNode.style.display = 'none';
